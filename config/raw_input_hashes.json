@@ -1,0 +1,10 @@
+{
+  "raw_data/PubchemFP.csv": "0504925c57f9459a6620d19681147092f65f18111fc903955f91630a59ac0b1d",
+  "raw_data/Methylation.csv": "16c2df331a16d4eeb9b9855f4df3eb41e421997c275686b02484ecd7510a098d",
+  "raw_data/Drug_response_IC50.csv": "236bccf8e724b8683a8bf14bb4bf16c31762df13203d7cfa36a156fafe43e71f",
+  "raw_data/Gene_expression.csv": "084d8e1854df4484281722abaf70376d6a3f11b5979e4685cc7f113309cf4d4b",
+  "data/source_metadata/methylation_feature_name_map.csv": "882c1b78bee727667b12f364df3cc9a39de40a9d879bd197e825c664b26be068",
+  "data/source_metadata/expression_feature_name_map.csv": "0e188f6715c4c25ce4ebe83a43102f9c69ff9b6a74dc23fd9a39769af5c57662",
+  "data/internal_response_pair_trace.csv": "73e43602764512983cb1d361add6c8aa1a46a29ba28d0f99b5ab47f9e609cf12",
+  "data/source_metadata/cell_annotations.csv": "005015e1c866cb494440d4a126180c94dff8b13a972d05b6372b7d78a48d693b"
+}

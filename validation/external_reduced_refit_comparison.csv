@@ -1,0 +1,4 @@
+"model","max_abs_prediction_difference","refit_RMSE","recorded_RMSE","RMSE_difference"
+"O2PLS",0,1.7209770303778,1.7209770303778,0
+"PCA_concat",0,1.8189414995714,1.8189414995714,0
+"Expression",0,1.70810711933714,1.70810711933714,0

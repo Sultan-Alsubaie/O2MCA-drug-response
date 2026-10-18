@@ -1,0 +1,395 @@
+{
+  "models": [
+    {
+      "id": "s15_O2PLS",
+      "stage": "15",
+      "source_label": "O2PLS",
+      "selected_configuration": {
+        "config_id": "candidate_48",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "5",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "16"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s15_PCA_concat",
+      "stage": "15",
+      "source_label": "PCA_concat",
+      "selected_configuration": {
+        "config_id": "candidate_44",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "1",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "12"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s15_PCA_separate",
+      "stage": "15",
+      "source_label": "PCA_separate",
+      "selected_configuration": {
+        "config_id": "candidate_48",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "5",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "16"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s15_PLS",
+      "stage": "15",
+      "source_label": "PLS",
+      "selected_configuration": {
+        "config_id": "candidate_48",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "5",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "16"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s15_JIVE",
+      "stage": "15",
+      "source_label": "JIVE",
+      "selected_configuration": {
+        "config_id": "candidate_40",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "5",
+        "lambda": "1",
+        "nrounds": "600",
+        "base_id": "8"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s16_joint_only",
+      "stage": "16",
+      "source_label": "joint_only",
+      "selected_configuration": {
+        "config_id": "candidate_44",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "1",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "12"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s16_joint_expression",
+      "stage": "16",
+      "source_label": "joint_expression",
+      "selected_configuration": {
+        "config_id": "candidate_44",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "1",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "12"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s16_joint_methylation",
+      "stage": "16",
+      "source_label": "joint_methylation",
+      "selected_configuration": {
+        "config_id": "candidate_44",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "1",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "12"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s16_specific_only",
+      "stage": "16",
+      "source_label": "specific_only",
+      "selected_configuration": {
+        "config_id": "candidate_38",
+        "max_depth": "6",
+        "eta": "0.03",
+        "min_child_weight": "5",
+        "lambda": "1",
+        "nrounds": "600",
+        "base_id": "6"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s23_PCA_expression",
+      "stage": "23",
+      "source_label": "PCA_expression",
+      "selected_configuration": {
+        "config_id": "candidate_44",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "1",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "12"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s23_PCA_methylation",
+      "stage": "23",
+      "source_label": "PCA_methylation",
+      "selected_configuration": {
+        "config_id": "candidate_48",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "5",
+        "lambda": "10",
+        "nrounds": "600",
+        "base_id": "16"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s24_PCA_expression",
+      "stage": "24",
+      "source_label": "PCA_expression",
+      "selected_configuration": {
+        "config_id": "candidate_40",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "5",
+        "lambda": "1",
+        "nrounds": "600",
+        "base_id": "8"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "s24_PCA_concat",
+      "stage": "24",
+      "source_label": "PCA_concat",
+      "selected_configuration": {
+        "config_id": "candidate_36",
+        "max_depth": "6",
+        "eta": "0.1",
+        "min_child_weight": "1",
+        "lambda": "1",
+        "nrounds": "600",
+        "base_id": "4"
+      },
+      "role": "primary_or_secondary_depending_on_contrast"
+    },
+    {
+      "id": "drug_mean",
+      "role": "descriptive_baseline"
+    },
+    {
+      "id": "drug_tissue_shrinkage10",
+      "role": "descriptive_baseline",
+      "prior_count": 10,
+      "unknown_fallback": "drug_mean"
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "id": "C1",
+      "left": "s15_O2PLS",
+      "right": "s15_PLS"
+    },
+    {
+      "id": "C2",
+      "left": "s15_O2PLS",
+      "right": "s15_JIVE"
+    },
+    {
+      "id": "C3",
+      "left": "s15_O2PLS",
+      "right": "s15_PCA_concat"
+    },
+    {
+      "id": "C4",
+      "left": "s15_O2PLS",
+      "right": "s15_PCA_separate"
+    },
+    {
+      "id": "C5",
+      "left": "s15_PCA_concat",
+      "right": "s23_PCA_expression"
+    },
+    {
+      "id": "C6",
+      "left": "s24_PCA_concat",
+      "right": "s24_PCA_expression"
+    }
+  ],
+  "selection": "minimum pooled development OOF RMSE; within 1e-8 tie prefer lower max_depth then nrounds then config_id",
+  "train_seed": 20260921,
+  "inference": {
+    "delta": "RMSE(left)-RMSE(right)",
+    "unit": "cell_with_all_observed_drug_pairs",
+    "paired": true,
+    "draws": 20000,
+    "seed": 20260923,
+    "method": "percentile quantiles type7",
+    "descriptive_confidence": 0.95,
+    "number_primary_contrasts": 6,
+    "family_alpha": 0.05,
+    "bonferroni_marginal_confidence": 0.9917,
+    "tail_probabilities": [
+      0.0042,
+      0.9958
+    ],
+    "p_values": false,
+    "equivalence_margin": null,
+    "implemented_and_validated": true
+  },
+  "package_versions": {
+    "abind": "1.4.8",
+    "backports": "1.5.1",
+    "base64enc": "0.1.6",
+    "bitops": "1.0.9",
+    "boot": "1.3.32",
+    "broom": "1.0.13",
+    "bslib": "0.11.0",
+    "cachem": "1.1.0",
+    "car": "3.1.5",
+    "carData": "3.0.6",
+    "caTools": "1.18.3",
+    "cli": "3.6.6",
+    "cluster": "2.1.8.2",
+    "colorspace": "2.1.2",
+    "compiler": "4.5.1",
+    "cowplot": "1.2.0",
+    "cpp11": "0.5.5",
+    "crosstalk": "1.2.2",
+    "data.table": "1.18.4",
+    "Deriv": "4.2.0",
+    "digest": "0.6.39",
+    "doBy": "4.7.1",
+    "dplyr": "1.2.1",
+    "DT": "0.34.0",
+    "ellipse": "0.5.0",
+    "emmeans": "2.0.3",
+    "estimability": "1.5.1",
+    "evaluate": "1.0.5",
+    "FactoMineR": "2.14",
+    "farver": "2.1.2",
+    "fastmap": "1.2.0",
+    "flashClust": "1.1.4",
+    "fontawesome": "0.5.3",
+    "forecast": "9.0.2",
+    "Formula": "1.2.5",
+    "fracdiff": "1.5.4",
+    "fs": "2.1.0",
+    "generics": "0.1.4",
+    "ggplot2": "4.0.3",
+    "ggrepel": "0.9.8",
+    "glue": "1.8.1",
+    "gplots": "3.3.0",
+    "graphics": "4.5.1",
+    "grDevices": "4.5.1",
+    "grid": "4.5.1",
+    "gtable": "0.3.6",
+    "gtools": "3.9.5",
+    "highr": "0.12",
+    "htmltools": "0.5.9",
+    "htmlwidgets": "1.6.4",
+    "isoband": "0.3.0",
+    "jquerylib": "0.1.4",
+    "jsonlite": "2.0.0",
+    "KernSmooth": "2.23.26",
+    "knitr": "1.51",
+    "labeling": "0.4.3",
+    "later": "1.4.8",
+    "lattice": "0.22.9",
+    "lazyeval": "0.2.3",
+    "leaps": "3.2",
+    "lifecycle": "1.0.5",
+    "lme4": "2.0.1",
+    "lmtest": "0.9.40",
+    "magrittr": "2.0.5",
+    "MASS": "7.3.65",
+    "Matrix": "1.7.5",
+    "MatrixModels": "0.5.4",
+    "memoise": "2.0.1",
+    "methods": "4.5.1",
+    "mgcv": "1.9.4",
+    "microbenchmark": "1.5.0",
+    "mime": "0.13",
+    "minqa": "1.2.8",
+    "modelr": "0.1.11",
+    "multcompView": "0.1.11",
+    "mvtnorm": "1.4.0",
+    "nlme": "3.1.169",
+    "nloptr": "2.2.1",
+    "nnet": "7.3.20",
+    "numDeriv": "2016.8.1.1",
+    "OmicsPLS": "2.1.0",
+    "otel": "0.2.0",
+    "parallel": "4.5.1",
+    "pbkrtest": "0.5.5",
+    "pillar": "1.11.1",
+    "pkgconfig": "2.0.3",
+    "promises": "1.5.0",
+    "purrr": "1.2.2",
+    "quantreg": "6.1",
+    "r.jive": "2.4",
+    "R6": "2.6.1",
+    "rappdirs": "0.3.4",
+    "rbibutils": "2.4.1",
+    "RColorBrewer": "1.1.3",
+    "Rcpp": "1.1.1.1.1",
+    "RcppArmadillo": "15.2.7.1",
+    "RcppEigen": "0.3.4.0.2",
+    "Rdpack": "2.6.6",
+    "reformulas": "0.4.4",
+    "rlang": "1.2.0",
+    "rmarkdown": "2.31",
+    "S7": "0.2.2",
+    "sass": "0.4.10",
+    "scales": "1.4.0",
+    "scatterplot3d": "0.3.45",
+    "softImpute": "1.4.3",
+    "SparseM": "1.84.2",
+    "splines": "4.5.1",
+    "stats": "4.5.1",
+    "stringi": "1.8.7",
+    "stringr": "1.6.0",
+    "survival": "3.8.6",
+    "tibble": "3.3.1",
+    "tidyr": "1.3.2",
+    "tidyselect": "1.2.1",
+    "timeDate": "4052.112",
+    "tinytex": "0.59",
+    "tools": "4.5.1",
+    "urca": "1.3.4",
+    "utf8": "1.2.6",
+    "utils": "4.5.1",
+    "vctrs": "0.7.3",
+    "viridisLite": "0.4.3",
+    "withr": "3.0.2",
+    "xfun": "0.58",
+    "xgboost": "3.2.1.1",
+    "yaml": "2.3.12",
+    "zoo": "1.8.15"
+  },
+  "R_version": "R version 4.5.1 (2025-06-13)",
+  "origin": "Extracted from recorded FINAL_FROZEN.json for reproduction, not a new preregistration",
+  "original_freeze_sha256": "c0ea5b6799e1d5ab30a29a443fefa05fa3713fe4501746eba11ae4a1812102b8"
+}

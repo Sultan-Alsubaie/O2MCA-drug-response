@@ -1,0 +1,8 @@
+{
+  "external_expression_fit_inputs.rds": "49b404f343045608734b7dad6d0502358089bdd444224c39dcd9d51e0ad5235f",
+  "PubchemFP.csv": "0504925c57f9459a6620d19681147092f65f18111fc903955f91630a59ac0b1d",
+  "development_cell_metadata.csv": "8a28e9eada83c733842614d665400595696dfa97ee05c3aff67eb13a978f85d4",
+  "omics_verified_headers.rds": "8c97d2aa668a40b93ea81eb22e6c27a14aea57534bab2964d646f0c7902f9ecb",
+  "external_reduced_fit_inputs.rds": "0dc2b4e99a7f893a5e380976597391757ada7bd5690046ea1b51b9f1cdf06376",
+  "protocol_config.rds": "677cd891862ed2c2a0a1afe1106f7e9cc2ef3ce9d5201d3d6bdf065afcecabe7"
+}
