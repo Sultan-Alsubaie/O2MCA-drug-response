@@ -1,5 +1,20 @@
-# Licensing decision pending
+# Licensing
 
-The owner has not yet selected a code license. No MIT/GPL or other grant has been assumed. Select a license and add its complete text before presenting this as licensed open-source software. Publication of source alone does not specify reuse permission.
+## Code
+The R scripts in this repository are released under the MIT License.
+See LICENSE for the full text.
 
-The distribution contains study-authored source and calls to separately installed libraries. PHEB/ENA/Cellosaurus and other external data retain their own attribution and terms. No third-party data archives, installed packages or downloaded external source trees are bundled here.
+## Data
+The repository bundles processed data for reproduction only. These data remain subject to
+the terms of their original sources:
+
+- GDSC expression, methylation, drug response and fingerprint tables: as released by
+  Chen and Zhang (Brief Bioinform 2021; https://github.com/Jinyu2019/Suppl-data-BBpaper),
+  derived from the Genomics of Drug Sensitivity in Cancer project.
+- External expression and response inputs: derived from the Cancer Cell Line Encyclopedia
+  (Broad Institute).
+- Reduced-panel methylation inputs: derived from PHEB v0.1.0 (Ohnmacht et al., Commun Biol 2023;
+  https://doi.org/10.5281/zenodo.8161472).
+- Cell identity records: Cellosaurus release 56.0 (CC BY 4.0).
+
+Please cite the original sources when reusing these data.
